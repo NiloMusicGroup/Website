@@ -1,0 +1,275 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainlogo {
+    max-width: 10em;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    color: #FBAA19 !important;
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+nav li a {
+    color: #0F3A5E;
+}
+
+nav li a :hover {
+    color: #FBAA19;
+}
+
+#secondrownav {
+    background: linear-gradient(to right, #0F3A5E, #0e7cb4);
+}
+
+#secondrownav ul {
+    padding-left: 85%;
+}
+
+#secondrownav ul a {
+    color: white;
+}
+
+#secondrownav ul a:hover {
+    color: #FBAA19;
+}
+
+#carousel {
+    background: linear-gradient(to right, #0F3A5E, #0e7cb4);
+    padding-bottom: 3rem;
+}
+
+#carousel img {
+    width: auto;
+    height: 800px;
+    max-height: 800px;
+}
+
+.spag {
+    padding: 10% 15% 15% 15%;
+}
+
+.spag h1 {
+    color: #FBAA19;
+    padding-bottom: 5%;
+}
+
+.spag img {
+    width: 30%;
+    height: 85px;
+    max-height: 85px;
+}
+
+.spag a {
+    color: #0F3A5E !important;
+    margin-left: 70%;
+}
+
+.spag a:hover {
+    color: #FBAA19 !important;
+}
+
+#NProduction {
+    color: #0F3A5E !important;
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+#NCine {
+    color: #0F3A5E !important;
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.semplanosinfo {
+    background: linear-gradient(to right, #0F3A5E, #0e7cb4);
+    padding: 10% 15% 10% 15%;
+    color: white;
+}
+
+.semplanosinfo h1 {
+    color: #FBAA19;
+    padding-bottom: 5%;
+}
+.semplanosinfo h3 {
+    text-align: center;
+    margin: auto;
+    padding: 5% 15% 0 15%;
+}
+
+.semplanosinfo a {
+    color: #FBAA19 !important;
+    margin-left: 70%;
+}
+
+#semplanosimg img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#semplanostext {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.criadores {
+    padding: 10% 15% 10% 15%;
+    color: #0e7cb4;
+}
+.criadores h3 {
+    text-align: center;
+    margin: auto;
+    padding: 5% 15% 0 15%;
+}
+
+.sobrenos {
+    padding: 5%;
+    color: #0e7cb4;
+}
+
+.team-grid .item {
+    margin-bottom:30px;
+}
+
+.team-grid .item .box {
+    text-align:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:280px;
+    position:relative;
+    overflow:hidden;
+}
+
+.team-grid .item .cover {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to right, #0F3A5E, #0e7cb4);
+    transition:opacity 0.15s ease-in;
+    opacity:0;
+    padding-top:80px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.team-grid .item:hover .cover {
+    opacity:0.5;
+}
+
+.team-grid .item .name {
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.team-grid .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#bbd8fb;
+    letter-spacing:2px;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.team-grid .social {
+    font-size:18px;
+}
+
+.team-grid .social a {
+    color:inherit;
+    margin:0 10px;
+    display:inline-block;
+    opacity:0.7;
+}
+
+.team-grid .social a:hover {
+    opacity:1;
+}
+
+.servicos {
+    padding: 5% 5% 5% 5%;
+    color: #0e7cb4;
+}
+
+.contactos {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 40%;
+    color: #0F3A5E;
+}
+
+.contactos div {
+    border-bottom: 1px ridge #0e7cb4;
+}
+
+.contactos a {
+    text-decoration: none;
+    color: #0e7cb4;
+}
+
+#portfoliointro {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    color: #FBAA19 !important;
+}
+
+#portfoliobody {
+    margin-bottom: 5%;
+    color: #0e7cb4;
+}
+
+#portfoliobody h5 {
+    color:  #0F3A5E;
+}
+
+#portfoliobody img {
+    width: 360px;
+    max-width: 360px;
+    height: 255px;
+    max-height: 255px;
+}
+
+.portsocial {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.portsocial a {
+    color:  #0F3A5E;
+}
+
+.portsocial a:hover{
+    color: #FBAA19;
+}
+
+footer {
+    background-image: linear-gradient(to right, #0F3A5E, #0e7cb4);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a :hover {
+    color: #FBAA19;
+}
