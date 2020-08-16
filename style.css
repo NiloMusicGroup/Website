@@ -32,9 +32,6 @@ nav li a :hover {
     background: linear-gradient(to right, #0F3A5E, #0e7cb4);
 }
 
-#secondrownav ul {
-    padding-left: 85%;
-}
 
 #secondrownav ul a {
     color: white;
