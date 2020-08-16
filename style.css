@@ -62,14 +62,13 @@ nav li a :hover {
 }
 
 .spag img {
-    width: 30%;
-    height: 85px;
-    max-height: 85px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .spag a {
     color: #0F3A5E !important;
-    margin-left: 70%;
 }
 
 .spag a:hover {
@@ -79,14 +78,12 @@ nav li a :hover {
 #NProduction {
     color: #0F3A5E !important;
     float: left;
-    width: 50%;
     padding: 2%;
 }
 
 #NCine {
     color: #0F3A5E !important;
     float: left;
-    width: 50%;
     padding: 2%;
 }
 
@@ -108,19 +105,10 @@ nav li a :hover {
 
 .semplanosinfo a {
     color: #FBAA19 !important;
-    margin-left: 70%;
-}
-
-#semplanosimg img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
 }
 
 #semplanostext {
     float: left;
-    width: 50%;
-    padding: 2%;
 }
 
 .criadores {
