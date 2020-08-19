@@ -13,6 +13,7 @@ h2 {
     padding-bottom: 5%;
     color: #FBAA19 !important;
     font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -35,6 +36,7 @@ nav li a :hover {
 
 #secondrownav ul a {
     color: white;
+    font-weight: bold;
 }
 
 #secondrownav ul a:hover {
@@ -209,13 +211,13 @@ nav li a :hover {
 }
 
 #portfoliointro {
-    margin-bottom: 5%;
     margin-top: 5%;
     text-align: center;
     color: #FBAA19 !important;
 }
 
 #portfoliobody {
+    margin: auto;
     margin-bottom: 5%;
     color: #0e7cb4;
 }
