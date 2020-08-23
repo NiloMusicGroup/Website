@@ -1,6 +1,12 @@
 body {
     font-family: 'Epilogue', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #mainlogo {
@@ -12,10 +18,9 @@ h2 {
     margin: auto;
     padding-bottom: 5%;
     color: #FBAA19 !important;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
 }
-
 
 p {
     font-size: 15px;
@@ -43,15 +48,31 @@ nav li a :hover {
     color: #FBAA19;
 }
 
-#carousel {
-    background: linear-gradient(to right, #0F3A5E, #0e7cb4);
-    padding-bottom: 3rem;
+
+.carousel-caption {
+    size: 5%;
+}
+
+
+.carousel-caption h3 {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px #000000;
+
+}
+
+.carousel-caption h5 {
+    text-shadow: 1px 1px 10px #000000;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #carousel img {
     width: auto;
-    height: 800px;
-    max-height: 800px;
+    height: 45vw;
+    max-height: 45vw;
+
+
 }
 
 .spag {
@@ -64,8 +85,8 @@ nav li a :hover {
 }
 
 .spag img {
-    width: 100%;
-    max-width: 400px;
+    width: auto;
+    max-width: 15vw;
     height: auto;
 }
 
