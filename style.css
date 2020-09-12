@@ -13,17 +13,39 @@ body::-webkit-scrollbar {
     max-width: 10em;
 }
 
-h2 {
-    text-align: center;
-    margin: auto;
-    padding-bottom: 5%;
-    color: #FBAA19 !important;
-    font-size: 3vw;
-    font-weight: bold;
+
+@media screen and (min-width: 899px) {
+    h2 {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 5%;
+        color: #FBAA19 !important;
+        font-weight: bold;
+        font-size: 4rem;
+    }
 }
 
-p {
-    font-size: 15px;
+@media screen and (max-width: 900px) {
+    h2 {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 5%;
+        color: #FBAA19 !important;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 899px) {
+    p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    p {
+        font-size: 10px;
+    }
 }
 
 nav li a {
@@ -84,10 +106,18 @@ nav li a :hover {
     padding-bottom: 5%;
 }
 
-.spag img {
+.prod {
     width: auto;
-    max-width: 15vw;
+    max-width: 80%;
     height: auto;
+    margin-bottom: 5%;
+}
+
+.cine {
+    width: auto;
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 2%;
 }
 
 .spag a {
@@ -132,6 +162,10 @@ nav li a :hover {
 
 #semplanostext {
     float: left;
+}
+
+#semplanosimg img {
+    width: 55vw;
 }
 
 .criadores {
@@ -218,7 +252,6 @@ nav li a :hover {
 .contactos {
     margin-bottom: 5%;
     margin-top: 5%;
-    width: 40%;
     color: #0F3A5E;
 }
 
@@ -247,17 +280,19 @@ nav li a :hover {
     color:  #0F3A5E;
 }
 
-#portfoliobody img {
-    width: 360px;
-    max-width: 360px;
-    height: 255px;
-    max-height: 255px;
+
+@media screen and (min-width: 899px) {
+    .card-text {
+        font-size: 1.2vw;
+    }
 }
 
-.portsocial {
-    padding-bottom: 5%;
-    padding-top: 5%;
+@media screen and (max-width: 768px) {
+    .card-text {
+        font-size: 3vw;
+    }
 }
+
 
 .portsocial a {
     color:  #0F3A5E;
