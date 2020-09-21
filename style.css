@@ -328,3 +328,13 @@ footer a :hover {
 .padding {
     padding-bottom: inherit;
  }   
+
+.titulos_joao {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    color: #FBAA19 !important;
+    font-weight: bold;
+    font-size: 4rem;
+ } 
