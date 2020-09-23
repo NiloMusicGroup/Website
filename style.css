@@ -326,10 +326,9 @@ footer a :hover {
 }
 
 .titulos_joao {
-    font-weight: bold;
     text-align: center;
     margin: auto;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     color: #FBAA19 !important;
     font-weight: bold;
     font-size: 4rem;
